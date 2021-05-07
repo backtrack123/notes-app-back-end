@@ -1,0 +1,41 @@
+Tools yang kedua adalah ESLint, ia dapat membantu 
+atau membimbing Anda untuk selalu menuliskan kode 
+JavaScript dengan gaya yang konsisten. Seperti yang 
+Anda tahu, JavaScript tidak memiliki aturan yang baku 
+untuk gaya penulisan kode, bahkan penggunaan semicolon. 
+Karena itu, terkadang kita jadi tidak konsisten dalam 
+menuliskannya.
+
+Kriteria menyebutkan, properti id merupakan string 
+dan harus unik, kita akan menggunakan bantuan library 
+pihak ketiga untuk menghasilkan nilainya. nanoid 
+merupakan salah satu library yang populer untuk 
+menangani ini. Jadi, silakan pasang library tersebut 
+dengan perintah.
+
+Untuk menggunakannya cukup mudah, kita hanya perlu 
+memanggil method nanoid() dan memberikan parameter 
+number yang merupakan ukuran dari string-nya.
+
+Namun apakah Anda tahu bahwa tidak semua data bisa 
+diambil dari origin yang berbeda? Contohnya data 
+JSON yang didapatkan melalui teknik XMLHTTPRequest 
+atau fetch. Jika website meminta sesuatu menggunakan 
+teknik tersebut dari luar origin-nya, maka permintaan 
+tersebut akan ditolak. Itu disebabkan oleh kebijakan 
+same-origin. Kasus ini terjadi pada aplikasi client 
+dan web server yang kita buat.
+
+Bila ingin cakupannya lebih luas alias CORS 
+diaktifkan di seluruh route yang ada di server, 
+Anda bisa tetapkan CORS pada konfigurasi ketika 
+hendak membuat server dengan menambahkan properti r
+outes.cors. Contohnya seperti ini:
+
+Setelah selesai membuat RESTful API, tak afdal 
+rasanya bila hanya diakses pada komputer Anda saja. 
+Dapat diakses di mana saja merupakan sifat esensi 
+bagi web server. Untuk melakukan hal itu, kita perlu 
+melakukan proses deployment atau merilis aplikasi 
+ke server yang dapat diakses secara publik.
+
